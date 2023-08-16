@@ -1,5 +1,42 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  color-scheme: light dark;
+body {
+  background-color: lightgray;
 }
 
+.container {
+  background: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.btn + .btn {
+  margin-left: 1em;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  margin: 3em;
+}
+
+#timer {
+  margin-top: 4em;
+}
+
+#timer-label {
+  text-transform: capitalize;
+  font-size: 2.2rem;
+  font-weight: bolder;
+}
+
+#time-left {
+  font-size: 4.3rem;
+  margin: 1em 0;
+}
+
+#break-length,
+#session-length {
+  margin: 1em;
+}
